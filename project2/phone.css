@@ -1,0 +1,144 @@
+
+
+
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+#steps{
+    display: flex;
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: medium;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#heading1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#para1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+#para2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#home::before{
+    height: 1180px;
+}
+#steps{
+    display: flex;
+    flex-direction: column;
+flex-wrap: wrap;}
+
+#steps .box { 
+    padding: 14px;
+    margin: 100px 0px; 
+    margin-bottom: 20px;
+}
+#middle h1{
+    margin: 199px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
+}
+.card{
+     display: flex;
+    flex-direction: column;
+flex-wrap: wrap;}
+
+#steps .box .card  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+width: 200px;
+height: 200px;
+}
+
+
+#steps .box .card img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    margin: 19px 14px 206px -29px;
+    /* padding: 10px 10px 10px 10px; */
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+
+}
+#steps .box .card h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.partners .partlogo{
+    width: 59px;
+    height: 281px;
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 100px; */
+
+}
+.join::before {
+ content: "";
+background: url('img/laptop1.png') no-repeat center center/cover;
+    height: 310px;
+    width: 100%;
+    position: absolute;
+    left:0%;
+     top: 233%; 
+    z-index: -4;
+    opacity: 0.2;
+
+}
+/* .partners .partlogo .part{
+    border: 2px solid darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 218px;
+        width: 200px;
+       } */
+
+       .partners .partlogo {
+        border: 2px solid darkmagenta;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            height: 218px;
+            width: 1517px;
+            position: relative;
+            top: -8%;
+            left: -1%;
+           }
+    
+           /* .partners {
+            border: 2px solid darkmagenta;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                height: 218px;
+                width: 200px;
+               }
+         */
+    
